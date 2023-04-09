@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Products Calculator</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="title">Food Products Expiration Date</div>
+    <div class="container">
+      <div class="inp-wrapper">  
+        <div>
+            <label for="product-name">Product Name</label>
+            <input id="product-name"type="text"/>
+            </div>
+        <div class="date-wrapper">
+          <label for="date-1">Start Date</label>
+          <input type="date" id="date-1" />
+        </div>
+        <div class="date-wrapper">
+          <label for="date-2">End Date</label>
+          <input type="date" id="date-2" />
+        </div>
+      </div>
+      <button id="submit">Submit</button>
+     
+      <div id="output">Select the dates to get started</div>
+      <ol id="list_item">
+      </ol>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
